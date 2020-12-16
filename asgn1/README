@@ -1,0 +1,7 @@
+Parth Ray (pray)
+
+Compile:
+    gcc -Wall -o detab detab.c
+
+Run:
+    ./detab < infile > outfile

@@ -1,0 +1,5 @@
+Parth Ray (pray)
+
+Compile: make
+
+Usage: fw [-n num] [ file1 [ file 2 ...] ]

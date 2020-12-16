@@ -1,0 +1,6 @@
+Parth Ray (pray)
+
+Compile: make
+
+Usage: ./hencode infile [ outfile ]
+       ./hdecode [ ( infile | - ) [ outfile ] ]

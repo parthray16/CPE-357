@@ -1,0 +1,14 @@
+Parth Ray (pray)
+
+1.  a) char *cp;
+    b) char *ap[];
+    c) int **pp;
+
+2.  Yes, you can becuase pointers are mutable. They are just variables that contain an address.
+    ex. int *p = &p;
+3.  Since p is set the address of s[], it will never equal "\0". So this program will keep running until it segfaults. You fix it by changing the for loop condition to be *p != "\0". Now we are checking for the value at address p instead of just the address p.
+4.  a) Since an array declaration is the address of the first element, it is like a pointer to the first element in the array.
+    b) The difference is that arrays cannot be incremented since you would be losing the location of the array. You can increment a pointer since it treated as a regular variable that stores an address.
+5.  Since perror has a parameter with a const attribute that is also a pointer, it means that perror cannot modify what the pointer, msg, points to. It can only modify the string that it points to. Since the parameter for strerror is just an integer, you cannot change the value. The differnce is that one is pass by reference and one is pass by value. 
+6.  It will overflow at year 2038. We would need to make the calender time type a larger bit number. We would have to modify all other applications that use the calender time to use the larger bit number now.
+7. The type of size_t is unsigned long long int. It can be found in the header file <machine/_types.h>

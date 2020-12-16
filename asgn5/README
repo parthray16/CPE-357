@@ -1,0 +1,8 @@
+Parth Ray (pray)
+
+Compile: make
+
+Limits:
+    Command line length:    512 bytes
+    Commands in a pipeline: 10
+    Arguments to a command: 10
